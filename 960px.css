@@ -1,0 +1,343 @@
+body{
+    margin: 0;
+    padding: 0;
+} 
+
+.background{
+     background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 10%);
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+}
+.text-font{
+    font-family: Philosopher-Regular, fantasy, monospace;
+}
+
+@font-face{
+    font-family: Philosopher-Regular;
+    src: url('../Fonts/Philosopher-Regular.ttf');
+}
+
+a{
+    text-decoration: none;
+}
+
+
+footer{
+    position: relative;
+    top: 140px;
+    padding-bottom: 50px;
+    margin: 20px;
+    font-size: 13px;
+    text-align: center;
+}
+
+#project-boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+}
+
+.projects-background{
+    position: relative;
+    width: 100%;
+    top: 70px;
+    margin: 0px;
+    height: 1850px;
+    background-size: 50%;
+    
+}
+
+h1{
+    position: absolute;
+    bottom: 1680px;
+    left: 280px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+#Profile-pic{
+    position: absolute;
+    left: 70px;
+    bottom: 1200px;
+    border-radius: 10px;
+    width: 700px;
+    display: block;
+}
+
+
+.about-me{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    margin: 0px;
+    padding-top: 10px;
+    height: 1800px;
+    background-size: 50%;
+    background: yellow;
+
+}
+.about-me-text{
+    position: absolute;
+    display: block;
+    width: 700px;
+    top: 600px;
+    font-size: 35px;
+    left: 80px;
+    text-align: center;
+    color: red;
+}
+
+
+#PIU_Image{
+    position: relative;
+    display: inline;
+    top: 1380px;
+    left: 60px;
+    width: 350px;
+}
+
+.PIU-TEXT{
+    position: relative;
+    font-size: 29px;
+    left: 430px;
+    width: 400px;
+    top: 1050px;
+}
+
+#Books{
+    width: 420px;
+    display: block;
+    position: absolute;
+    left: 30px;
+    top: 990px;
+}
+
+.Books-text{
+    font-size: 29px;
+    position: absolute;
+    left: 460px;
+    width: 390px;
+    top: 990px;
+}
+
+#GoodReadsButton{
+    display: inline-block;
+    border: 2px solid black;
+    position: absolute;
+    left: 480px;
+    top: 1270px;
+    font-size: 60px;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    color: black;
+    background-color: #FFFFFF;
+    text-align: center;
+    transition: color 0.2s;
+}
+
+#GoodReadsButton:hover{
+    color:red;
+}
+
+#GoodReadsButton:active{
+    color: darkred;
+    left: 483px;
+    top: 1274px;
+}
+
+
+#Water_Image{
+    width: 400px;
+    position: relative;
+    padding-left: 245px;
+    display: block;
+}
+
+#Duality_Image{
+    width:400px;
+    position: relative;
+    padding-left: 245px;
+    display: block;
+}
+
+#Poetry_Image{
+    width: 400px;
+    position: relative;
+    padding-left: 245px;
+    display: block;
+}
+
+.LOrLBackground{
+    background: lightblue;
+}
+
+.Project-title{
+    background: orange;
+}
+
+.Poems{
+    background: cyan;
+}
+
+#menu-outer{
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    background: #708c89;
+}
+
+.table{   
+    position: relative;
+    display: inline-grid;
+    margin: 0 auto;
+}
+
+
+ul#navbar{
+    grid-gap: 40px;
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul#navbar li{
+    display: inline;
+}
+
+#Contact-button{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    bottom: 30px;
+    left: 44px
+}
+
+#Contact-button:hover{
+    animation-name: hover;
+    animation-fill-mode: forwards;
+}
+
+#Projects-button{
+    color: white;
+    font-size: 30px;
+    bottom: 30px;
+    position: relative;
+    right: 15px;
+}
+
+#Projects-button:hover{
+    animation-name: hover;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes hover{
+    100%{color: aqua}
+}
+
+#About-button{
+    color: white;
+    position: relative;
+    font-size: 30px;
+    bottom: 30px;
+    left: 20px;
+}
+
+#About-button:hover{
+    animation-name: hover;
+    animation-fill-mode: forwards;
+}
+
+.Project-Button{
+    color: white;
+    font-size: 30px;
+    transition: color .3s;
+}
+
+.Project-Button:hover{
+    color: forestgreen;
+}
+
+#Contact-Section{
+    position: relative;
+    text-align: center;
+    top: 70px;
+}
+
+#Contact-List{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#Github-Logo{
+    width: 100px;
+    border-radius: 50px;
+}
+
+#Insta-logo{
+    width:100px;
+    border-radius: 20px; 
+}
+
+#Gmail-Logo{
+    width: 100px;
+    border-radius: 0px;
+}
+
+#Snap-Logo{
+    width: 100px;
+    border-radius: 50px;
+}
+
+#profile-link{
+    position: relative;
+    font-size: 30px;
+    bottom: 35px;
+    transition: color .3s;
+}
+
+#profile-link:hover{
+    color:#61d6e2;
+}
+
+#Insta-Text{
+    color: mediumblue;
+    position: relative;
+    font-size: 30px;
+    bottom: 35px;
+    transition: color .3s;
+}
+
+#Insta-Text:hover{
+    color: #61d6e2;
+}
+
+#Gmail-Text{
+    bottom: 22px;
+    font-size: 30px;
+    position: relative;
+    transition: color .3s;
+}
+
+#Gmail-Text:hover{
+    color: #61d6e2;
+}
+
+#Snap-Text{
+    font-size: 30px;
+    position: relative;
+    bottom: 30px;
+    transition: color .3s;
+}
+
+#Snap-Text:hover{
+    color: #61d6e2;
+}
