@@ -49,7 +49,7 @@ footer{
     display: flex;
     flex-direction: column;
     text-align: center;
-    align-items: center
+    align-items: center;
 }
 .projects-background{
     position: relative;
@@ -63,11 +63,12 @@ footer{
 
 #Profile-pic{
     position: absolute;
-    left: 50px;
     bottom: 360px;
     border-radius: 10px;
-    width: 550px;
+    width: 75%;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -83,93 +84,71 @@ footer{
 
 }
 .about-me-text{
-    position: absolute;
+    position: relative;
     display: block;
-    width: 1000px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 35px;
-    left: 650px;
     text-align: center;
     color: red;
 }
 
 #PIU_Image{
     position: relative;
-    display: inline;
+    display: block;
     top: 320px;
     left: 60px;
 }
 
 .PIU-TEXT{
+    display: block;
     position: relative;
     font-size: 22px;
     left: 290px;
-    width: 450px;
+    width: 80%;
     top: 120px;
 }
 
 #Books{
-    width: 350px;
+    width: 80%;
     display: block;
-    position: absolute;
+    position: relative;
     left: 830px;
     top: 490px;
 }
 
 .Books-text{
+    display: block;
     font-size: 22px;
-    position: absolute;
-    left: 1200px;
-    width: 500px;
-    top: 500px;
+    position: relative;
+    width: 80%;
 }
-
-#GoodReadsButton{
-    display: inline-block;
-    border: 2px solid black;
-    position: absolute;
-    left: 1300px;
-    top: 660px;
-    font-size: 60px;
-    padding: 5px 5px;
-    box-sizing: border-box;
-    color: black;
-    background-color: #FFFFFF;
-    text-align: center;
-    transition: color 0.2s;
-}
-
-#GoodReadsButton:hover{
-    color:red;
-}
-
-#GoodReadsButton:active{
-    color: darkred;
-    left:1305px;
-    top: 665px;
-}
-
 
 #Water_Image{
     padding-top: 10px;
-    width: 400px;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
     position: relative;
-    padding-left: 645px;
     display: block;
 }
 
 #Duality_Image{
     padding-top: 10px;
-    width:400px;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
     position: relative;
-    padding-left: 645px;
     display: block;
 }
 
 #Poetry_Image{
     padding-top: 10px;
-    width: 400px;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
     position: relative;
-    padding-left: 645px;
     display: block;
 }
 
@@ -201,8 +180,9 @@ footer{
 
 
 ul#navbar{
+    float: none;
     grid-gap: 40px;
-    min-width: 696px;
+    min-width: 100%;
     list-style: none;
     padding-top: 20px;
 }
@@ -278,22 +258,22 @@ ul#navbar li{
 }
 
 #Github-Logo{
-    width: 100px;
+    width: 10%;
     border-radius: 50px;
 }
 
 #Insta-logo{
-    width:100px;
+    width:10%;
     border-radius: 20px; 
 }
 
 #Gmail-Logo{
-    width: 100px;
+    width: 10%;
     border-radius: 0px;
 }
 
 #Snap-Logo{
-    width: 100px;
+    width: 10%;
     border-radius: 50px;
 }
 
