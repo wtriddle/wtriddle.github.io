@@ -341,20 +341,3 @@ ul#navbar li{
 #Snap-Text:hover{
     color: #61d6e2;
 }
-
-@media screen and (max-width: 600px){
-    #menu-outer{
-        height: 25px;
-        width: 100%;
-    }
-    .about-me{
-        width: 100%;
-    }
-    #projects[
-        width:100%;
-    ]
-    #Contact-Section{
-        width: 100%;
-    }
-    
-}
