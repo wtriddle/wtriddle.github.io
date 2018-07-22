@@ -143,6 +143,10 @@ footer{
     width: 60%;
 }
 
+#GoodReadsButton{
+    display: none;
+}
+
 #Water_Image{
     padding-top: 10px;
     width: 30%;
