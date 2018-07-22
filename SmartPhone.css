@@ -64,7 +64,6 @@ footer{
 #Profile-pic{
     position: absolute;
     bottom: 360px;
-    margin-top: 5%;
     border-radius: 10px;
     width: 75%;
     display: block;
@@ -79,7 +78,7 @@ footer{
     width: 100%;
     margin: 0px;
     padding-top: 10px;
-    height: 800px;
+    height: 320vh;
     background-size: 50%;
     background: yellow;
 
@@ -95,11 +94,24 @@ footer{
     color: red;
 }
 
+.Flex-Container{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 100%;
+    height: 250vh;
+}
+
+.PIU-Section{
+    width 95%;
+    height: 80vh;
+}
+
 #PIU_Image{
     position: relative;
     display: block;
-    top: 320px;
-    left: 60px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .PIU-TEXT{
@@ -107,21 +119,28 @@ footer{
     position: relative;
     font-size: 22px;
     left: 290px;
-    width: 80%;
+    width: 60%;
     top: 120px;
+}
+
+.Hobbies{
+    width: 95%;
+    height: 80vh;
 }
 
 #Books{
     width: 80%;
     display: block;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .Books-text{
     display: block;
     font-size: 22px;
     position: relative;
-    width: 80%;
+    width: 60%;
 }
 
 #Water_Image{
