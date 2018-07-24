@@ -26,23 +26,23 @@ h1{
     text-align: center;
 }
 
+.headers2{
+    font-size: 80px;
+    text-align: center;
+}
+
+.headers3{
+    font-size: 50px;
+    text-align: center;
+}
+
 footer{
     position: relative;
     top: 140px;
     padding-bottom: 50px;
     margin: 20px;
-    font-size: 13px;
+    font-size: 23px;
     text-align: center;
-}
-
-#project-boxes{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    
 }
 
 .project-boxes{
@@ -50,24 +50,25 @@ footer{
     flex-direction: column;
     text-align: center;
     align-items: center;
+    margin-left: 0px;
 }
 .projects-background{
     position: relative;
     width: 100%;
     top: 70px;
     margin: 0px;
-    height: 1550px;
+    height: 3650px;
     background-size: 50%;
 }
 
 
 #Profile-pic{
     position: absolute;
-    bottom: 360px;
+    bottom: 2010px;
     border-radius: 10px;
-    width: 75%;
+    width: 87%;
     display: block;
-    margin-left: auto;
+    margin-left: 10px;
     margin-right: auto;
 }
 
@@ -78,7 +79,7 @@ footer{
     width: 100%;
     margin: 0px;
     padding-top: 10px;
-    height: 320vh;
+    height: 160vh;
     background-size: 50%;
     background: yellow;
 
@@ -89,9 +90,11 @@ footer{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 35px;
+    font-size: 50px;
     text-align: center;
     color: red;
+    top: 610px;
+    left: 0px;
 }
 
 .Flex-Container{
@@ -108,19 +111,21 @@ footer{
 }
 
 #PIU_Image{
+    width: 45%;
     position: relative;
     display: block;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: -30px;
+    top: 700px;
 }
 
 .PIU-TEXT{
     display: block;
     position: relative;
-    font-size: 22px;
-    left: 290px;
-    width: 60%;
-    top: 120px;
+    font-size: 42px;
+    left: 490px;
+    width: 50%;
+    top: 230px;
 }
 
 .Hobbies{
@@ -129,49 +134,71 @@ footer{
 }
 
 #Books{
-    width: 80%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 60%;
+    height: 40%;
     display: block;
     position: relative;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: -40px;
 }
 
 .Books-text{
+    left: 0px;
+    top: -550px;
     display: block;
-    font-size: 22px;
+    font-size: 42px;
     position: relative;
-    width: 60%;
+    width: 43%;
 }
 
 #GoodReadsButton{
-    display: none;
+    width: 45%;
+    display: inline-block;
+    border: 2px solid black;
+    position: absolute;
+    left: 320px;
+    top: 1950px;
+    font-size: 90px;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    color: black;
+    background-color: #FFFFFF;
+    text-align: center;
+    transition: color 0.2s;
 }
 
 #Water_Image{
     padding-top: 10px;
-    width: 30%;
+    width: 70%;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: -490px;
     position: relative;
     display: block;
 }
 
 #Duality_Image{
     padding-top: 10px;
-    width: 30%;
+    width: 70%;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: -490px;
     position: relative;
     display: block;
 }
 
 #Poetry_Image{
     padding-top: 10px;
-    width: 30%;
+    width: 70%;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: -490px;
     position: relative;
     display: block;
+}
+
+.Project-text{
+    font-size: 50px;
 }
 
 .LOrLBackground{
@@ -190,7 +217,7 @@ footer{
     z-index: 1;
     width: 100%;
     position: fixed;
-    height: 50px;
+    height: 90px;
     background: #708c89;
 }
 
@@ -206,7 +233,7 @@ ul#navbar{
     grid-gap: 40px;
     min-width: 100%;
     list-style: none;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 ul#navbar li{
@@ -215,7 +242,7 @@ ul#navbar li{
 
 #Contact-button{
     color: white;
-    font-size: 30px;
+    font-size: 60px;
     position: relative;
     bottom: 30px;
     left: 44px
@@ -228,7 +255,7 @@ ul#navbar li{
 
 #Projects-button{
     color: white;
-    font-size: 30px;
+    font-size: 60px;
     bottom: 30px;
     position: relative;
     right: 15px;
@@ -247,7 +274,7 @@ ul#navbar li{
 #About-button{
     color: white;
     position: relative;
-    font-size: 30px;
+    font-size: 60px;
     bottom: 30px;
     left: 20px;
 }
@@ -259,7 +286,7 @@ ul#navbar li{
 
 .Project-Button{
     color: white;
-    font-size: 30px;
+    font-size: 80px;
     transition: color .3s;
 }
 
@@ -280,29 +307,29 @@ ul#navbar li{
 }
 
 #Github-Logo{
-    width: 10%;
+    width: 30%;
     border-radius: 50px;
 }
 
 #Insta-logo{
-    width:10%;
+    width:30%;
     border-radius: 20px; 
 }
 
 #Gmail-Logo{
-    width: 10%;
+    width: 30%;
     border-radius: 0px;
 }
 
 #Snap-Logo{
-    width: 10%;
+    width: 30%;
     border-radius: 50px;
 }
 
 #profile-link{
     position: relative;
-    font-size: 30px;
-    bottom: 35px;
+    font-size: 70px;
+    bottom: 115px;
     transition: color .3s;
 }
 
@@ -313,8 +340,8 @@ ul#navbar li{
 #Insta-Text{
     color: mediumblue;
     position: relative;
-    font-size: 30px;
-    bottom: 35px;
+    font-size: 70px;
+    bottom: 125px;
     transition: color .3s;
 }
 
@@ -323,8 +350,8 @@ ul#navbar li{
 }
 
 #Gmail-Text{
-    bottom: 22px;
-    font-size: 30px;
+    bottom: 80px;
+    font-size: 60px;
     position: relative;
     transition: color .3s;
 }
@@ -334,9 +361,9 @@ ul#navbar li{
 }
 
 #Snap-Text{
-    font-size: 30px;
+    font-size: 60px;
     position: relative;
-    bottom: 30px;
+    bottom: 100px;
     transition: color .3s;
 }
 

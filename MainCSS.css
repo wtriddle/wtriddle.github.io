@@ -173,6 +173,10 @@ footer{
     display: block;
 }
 
+.Project-text{
+    font-size: 30px;
+}
+
 .LOrLBackground{
     background: lightblue;
 }
