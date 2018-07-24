@@ -27,7 +27,7 @@ footer{
     top: 140px;
     padding-bottom: 50px;
     margin: 20px;
-    font-size: 13px;
+    font-size: 23px;
     text-align: center;
 }
 
@@ -57,9 +57,6 @@ h1{
     left: 280px;
 }
 
-h2{
-    font-size: 40px;
-}
 
 #Profile-pic{
     position: absolute;

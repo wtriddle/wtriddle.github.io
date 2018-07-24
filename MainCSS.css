@@ -26,12 +26,18 @@ h1{
     text-align: center;
 }
 
+.headers2{
+    font-size: 50px;
+    text-align: center;
+}
+
+
 footer{
     position: relative;
     top: 140px;
     padding-bottom: 50px;
     margin: 20px;
-    font-size: 13px;
+    font-size: 23px;
     text-align: center;
 }
 
@@ -301,6 +307,11 @@ ul#navbar li{
     border-radius: 50px;
 }
 
+#Goodreads-logo{
+    width: 120px;
+    border-radius: 200px;
+}
+
 #profile-link{
     position: relative;
     font-size: 30px;
@@ -346,9 +357,14 @@ ul#navbar li{
     color: #61d6e2;
 }
 
-@media screen and (max-device-width: 480px){
-    #GoodReadsButton{
-        display: none;
-    }
-    
+#Goodreads-text{
+    font-size: 30px;
+    position: relative;
+    bottom: 45px;
+    padding-left: 10px;
+    transition: color .3s;
+}
+
+#Goodreads-text:hover{
+    color: #61d6e2;
 }

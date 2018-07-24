@@ -326,6 +326,19 @@ ul#navbar li{
     border-radius: 50px;
 }
 
+#Goodreads-logo{
+    width: 30%;
+    border-radius: 200px;
+}
+
+#Goodreads-text{
+    font-size: 60px;
+    position: relative;
+    padding-left: 20px;
+    bottom: 100px;
+    transition: color .3s;
+}
+
 #profile-link{
     position: relative;
     font-size: 70px;
