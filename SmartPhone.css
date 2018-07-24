@@ -155,19 +155,7 @@ footer{
 }
 
 #GoodReadsButton{
-    width: 45%;
-    display: inline-block;
-    border: 2px solid black;
-    position: absolute;
-    left: 320px;
-    top: 1950px;
-    font-size: 90px;
-    padding: 5px 5px;
-    box-sizing: border-box;
-    color: black;
-    background-color: #FFFFFF;
-    text-align: center;
-    transition: color 0.2s;
+    display: none;
 }
 
 #Water_Image{
